@@ -2,11 +2,12 @@ include:
   # Start Ollama
   - ollama-runtime/ollama.yaml
   # Download LLMs
-  - models/tinydolphin-llm.yaml
-  - models/tinyllama-llm.yaml
-  - models/deepseek-coder.yaml
-  - models/gemma.yaml
+  # - models/tinydolphin-llm.yaml
+  # - models/tinyllama-llm.yaml
+  # - models/deepseek-coder.yaml
+  # - models/gemma.yaml
   #- models/miniml.yaml # only embeddings
+  - models/qwen2.yaml
 
   # Start GenAI application demo
   - python-demo/app.yaml
